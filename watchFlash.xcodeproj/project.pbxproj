@@ -559,6 +559,7 @@
 				BDBACC9C1D8E16D20061ED47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDBACC9E1D8E16D20061ED47 /* Build configuration list for PBXNativeTarget "watchFlash WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +568,7 @@
 				BDBACCA01D8E16D20061ED47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDBACCA21D8E16D20061ED47 /* Build configuration list for PBXNativeTarget "watchFlash" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +577,7 @@
 				BDBACCA41D8E16D20061ED47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
