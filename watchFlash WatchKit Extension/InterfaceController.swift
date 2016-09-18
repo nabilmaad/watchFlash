@@ -14,12 +14,11 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
 
     @IBOutlet var flashlightButton: WKInterfaceButton!
     
-    private var brightness: CGFloat = 0
+    private var whiteColorBrightness: CGFloat = 0
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
         self.crownSequencer.delegate = self
     }
     
@@ -36,12 +35,11 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
     }
     
     func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {
-        var newBrightness = self.brightness + CGFloat(rotationalDelta)
-        newBrightness = min(newBrightness, 1.0)
-        newBrightness = max(newBrightness, 0.0)
-        self.brightness = newBrightness
+        var newBrightness = self.whiteColorBrightness + CGFloat(rotationalDelta)
+        newBrightness = max(min(newBrightness, 1.0), 0.0)
         
         self.flashlightButton.setBackgroundColor(UIColor(hue: 1.0, saturation: 0.0, brightness: newBrightness, alpha: 1.0))
+        self.whiteColorBrightness = newBrightness
     }
 
 }
