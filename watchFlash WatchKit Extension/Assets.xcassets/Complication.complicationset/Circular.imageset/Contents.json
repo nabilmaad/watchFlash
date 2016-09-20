@@ -2,13 +2,13 @@
   "images" : [
     {
       "idiom" : "watch",
-      "filename" : "flashlight32.png",
+      "filename" : "Flashlight_complication_32.png",
       "screen-width" : "<=145",
       "scale" : "2x"
     },
     {
       "idiom" : "watch",
-      "filename" : "flashlight36.png",
+      "filename" : "Flashlight_complication_36.png",
       "screen-width" : ">145",
       "scale" : "2x"
     }
