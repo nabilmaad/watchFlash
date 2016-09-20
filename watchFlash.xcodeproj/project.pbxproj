@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD235EFB1D910C6E007E4E75 /* WelcomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */; };
 		BDBACC6D1D8E16D20061ED47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC6C1D8E16D20061ED47 /* AppDelegate.swift */; };
 		BDBACC6F1D8E16D20061ED47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC6E1D8E16D20061ED47 /* ViewController.swift */; };
 		BDBACC721D8E16D20061ED47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBACC701D8E16D20061ED47 /* Main.storyboard */; };
@@ -16,7 +17,7 @@
 		BDBACC821D8E16D20061ED47 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBACC801D8E16D20061ED47 /* Interface.storyboard */; };
 		BDBACC841D8E16D20061ED47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBACC831D8E16D20061ED47 /* Assets.xcassets */; };
 		BDBACC8B1D8E16D20061ED47 /* watchFlash WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BDBACC8A1D8E16D20061ED47 /* watchFlash WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BDBACC901D8E16D20061ED47 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC8F1D8E16D20061ED47 /* InterfaceController.swift */; };
+		BDBACC901D8E16D20061ED47 /* FlashScreenInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC8F1D8E16D20061ED47 /* FlashScreenInterfaceController.swift */; };
 		BDBACC921D8E16D20061ED47 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC911D8E16D20061ED47 /* ExtensionDelegate.swift */; };
 		BDBACC941D8E16D20061ED47 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC931D8E16D20061ED47 /* ComplicationController.swift */; };
 		BDBACC961D8E16D20061ED47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBACC951D8E16D20061ED47 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeInterfaceController.swift; sourceTree = "<group>"; };
 		BDBACC691D8E16D20061ED47 /* watchFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBACC6C1D8E16D20061ED47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBACC6E1D8E16D20061ED47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,7 +79,7 @@
 		BDBACC831D8E16D20061ED47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDBACC851D8E16D20061ED47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBACC8A1D8E16D20061ED47 /* watchFlash WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchFlash WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDBACC8F1D8E16D20061ED47 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BDBACC8F1D8E16D20061ED47 /* FlashScreenInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashScreenInterfaceController.swift; sourceTree = "<group>"; };
 		BDBACC911D8E16D20061ED47 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		BDBACC931D8E16D20061ED47 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		BDBACC951D8E16D20061ED47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,7 +150,8 @@
 		BDBACC8E1D8E16D20061ED47 /* watchFlash WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				BDBACC8F1D8E16D20061ED47 /* InterfaceController.swift */,
+				BDBACC8F1D8E16D20061ED47 /* FlashScreenInterfaceController.swift */,
+				BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */,
 				BDBACC911D8E16D20061ED47 /* ExtensionDelegate.swift */,
 				BDBACC931D8E16D20061ED47 /* ComplicationController.swift */,
 				BDBACC951D8E16D20061ED47 /* Assets.xcassets */,
@@ -304,8 +307,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD235EFB1D910C6E007E4E75 /* WelcomeInterfaceController.swift in Sources */,
 				BDBACC921D8E16D20061ED47 /* ExtensionDelegate.swift in Sources */,
-				BDBACC901D8E16D20061ED47 /* InterfaceController.swift in Sources */,
+				BDBACC901D8E16D20061ED47 /* FlashScreenInterfaceController.swift in Sources */,
 				BDBACC941D8E16D20061ED47 /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController, WKCrownDelegate {
+class FlashScreenInterfaceController: WKInterfaceController, WKCrownDelegate {
 
     @IBOutlet var flashlightButton: WKInterfaceButton!
     
