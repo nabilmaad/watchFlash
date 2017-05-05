@@ -10,7 +10,7 @@ import WatchKit
 import Foundation
 
 
-class WelcomeInterfaceController: WKInterfaceController {
+final class HelperInterfaceController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
@@ -28,8 +28,7 @@ class WelcomeInterfaceController: WKInterfaceController {
         super.didDeactivate()
     }
 
-    @IBAction func didPressGetStartedButton() {
-        self.popToRootController()
-        self.pushController(withName: "FlashScreenInterfaceController", context: nil)
+    @IBAction func didPressAgreementButton() {
+        self.dismiss()
     }
 }

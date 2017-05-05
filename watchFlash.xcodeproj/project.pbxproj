@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BD235EFB1D910C6E007E4E75 /* WelcomeInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */; };
+		BD235EFB1D910C6E007E4E75 /* HelperInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD235EFA1D910C6E007E4E75 /* HelperInterfaceController.swift */; };
 		BDBACC6D1D8E16D20061ED47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC6C1D8E16D20061ED47 /* AppDelegate.swift */; };
 		BDBACC6F1D8E16D20061ED47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBACC6E1D8E16D20061ED47 /* ViewController.swift */; };
 		BDBACC721D8E16D20061ED47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBACC701D8E16D20061ED47 /* Main.storyboard */; };
@@ -66,7 +66,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeInterfaceController.swift; sourceTree = "<group>"; };
+		BD235EFA1D910C6E007E4E75 /* HelperInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperInterfaceController.swift; sourceTree = "<group>"; };
 		BDBACC691D8E16D20061ED47 /* watchFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBACC6C1D8E16D20061ED47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBACC6E1D8E16D20061ED47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				BDBACC8F1D8E16D20061ED47 /* FlashScreenInterfaceController.swift */,
-				BD235EFA1D910C6E007E4E75 /* WelcomeInterfaceController.swift */,
+				BD235EFA1D910C6E007E4E75 /* HelperInterfaceController.swift */,
 				BDBACC911D8E16D20061ED47 /* ExtensionDelegate.swift */,
 				BDBACC931D8E16D20061ED47 /* ComplicationController.swift */,
 				BDBACC951D8E16D20061ED47 /* Assets.xcassets */,
@@ -307,7 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD235EFB1D910C6E007E4E75 /* WelcomeInterfaceController.swift in Sources */,
+				BD235EFB1D910C6E007E4E75 /* HelperInterfaceController.swift in Sources */,
 				BDBACC921D8E16D20061ED47 /* ExtensionDelegate.swift in Sources */,
 				BDBACC901D8E16D20061ED47 /* FlashScreenInterfaceController.swift in Sources */,
 				BDBACC941D8E16D20061ED47 /* ComplicationController.swift in Sources */,
